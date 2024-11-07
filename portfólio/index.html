@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <<link rel="stylesheet" href="port.css">
+    <title>Portfólio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#sobremim">Sobre mim</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#certificações">Certificações e Projetos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contato">Contato</a>
+                </li>
+        </nav>
+        <h4>Olá, eu sou</h4>
+        <p>Júlia Prianti</p>
+        <h5>estudante de tecnologia em constante busca de conhecimento e evolução</h5>
+        <div class="botão">
+            <a href="pdf/curriculo.pdf" button type="button" class="btn btn-outline-secondary">Veja mais</button></a>
+        </div>
+    </header>
+    <main>
+      <h4 id="sobremim">Sobre mim</h4>
+      <p id="texto">Meu nome é Júlia e estudo Análise e Desenvolvimento de Sistemas na FATEC de São José dos Campos. Minha jornada na área de T.I. começou em 2024 e desde então tenho me dedicado a desenvolver 
+        linhas de código e explorar as infinitas possibilidades no mundo da programação.<br> Estudo boas práticas de codificação, 
+        sempre buscando melhorar a qualidade do meu trabalho.<br> Aprecio desvendar o que está por trás das aplicações, adoro entender a lógica por trás do código e como tudo se conecta.</p>
+      <p id="texto2">Atualmente, estou aprofundando meus conhecimentos em Python, JavaScript, HTML/CSS  e frameworks como Bootstrap, 
+        para criar experiências mais intuitivas para os usuários.<br> Com cada projeto que completo, sinto que estou evoluindo como programadora e adquirindo novos insights.</p>
+      <p id="texto2">Nas horas vagas, você pode me encontrar na academia, assistindo filme ou cozinhando. 
+        Isso me ajuda a relaxar e equilibrar a mente, recarregando as energias para novos projetos.</p>
+        <img src="imagens/foto port.jpeg" id="fotoport">
+        <article>
+          <div class="detail"></div>
+        </article>
+      <section>
+        <h4 id="certificações">Certificações</h4>
+        <p id="texto">Certificado de Proficiência em Inglês<br>
+          Wizard, concluído em 2023<br>
+          Obtive nível B2 de proficiência, demonstrando habilidades sólidas em leitura, escrita, fala e compreensão auditiva.</p>
+        <p id="texto2">Certificação em Linux<br>
+          Cisco Networking Academy, 2024<br>
+          Obtive este certificado e adquiri habilidades práticas após completar um curso sobre o sistema operacional Linux.
+          O treinamento incluiu tópicos como instalação, configuração, gerenciamento de pacotes e segurança de sistemas.</p>
+          <a href="pdf/JuliaPrianti-NDG Linux Unhatc-certificate (1).pdf" target="_blank" class="certificado">Certificado</a>
+        <p id="texto2">Certificação em Python<br>
+          Fundação Bradesco, 2024<br>
+          Esta certificação foi obtida após completar um curso básico de programação em Python, abordando conceitos fundamentais.</p>
+          <a href="pdf/Certificado.pdf" target="_blank" class="certificado">Certificado</a>
+        <p id="texto2">Certificação em Segurança em Tecnologia da Informação<br>
+          Fundação Bradesco, 2024<br>
+          Esta certificação foi obtida após a conclusão de um curso que cobriu os princípios fundamentais de segurança da informação. 
+          O treinamento incluiu tópicos como gestão de riscos, criptografia e controle de acesso. </p>
+        <h4 id="certificações" style="margin-top: 1%;">Projetos</h4>
+        <p id="texto3">Criação de um site didático ensinando a Metologia Scrum(API)<br>
+        <p id="titulo">Descrição do Projeto:</p>
+        <p id="texto2" style="margin-top: -1%; margin-left: 15%;">Desenvolvemos um site didático para uma empresa fictícia que tem como objetivo ensinar a Metodologia Ágil de forma simples e eficaz. 
+         O site foi projetado para oferecer uma experiência de aprendizado interativa, permitindo que os usuários adquiram conhecimentos sobre os princípios, práticas e ferramentas da metodologia.
+         Ao final do conteúdo, implementamos um quiz interativo que permite testar seu conhecimento sobre a Metodologia Scrum. O quiz é composto por perguntas de múltipla escolha que cobrem os tópicos abordados no site. 
+         Após a conclusão, os usuários recebem um feedback sobre seu desempenho.</p>
+        <p id="titulo">Competências técnicas:</p>
+        <p id="texto2" style="margin-top: -1%; margin-left: 15%;">HTML/CSS, JavaScript, Github, AWS </p>
+        <p id="titulo">Link para o repositório:</p>
+          <a id="git" class="target" href="https://github.com/SPACELINE-API/Spaceline.git" target="_blank">https://github.com/SPACELINE-API/Spaceline.git</a>
+        <p id="titulo">Imagem do projeto:</p>
+        <img src="imagens/imagem do produto.jpeg" id="api">
+      </section>
+    </main>
+    <footer>
+      <h4 id="contato" style="color:white; font-size: 28px; margin-top: -4%;margin-left: 1%;">Entre em contato</h4>
+      <a href="https://www.linkedin.com/in/julia-prianti/">
+        <img src="imagens/Linkedin.png" id="redes">
+      </a>
+      <a href="https://github.com/juliaprianti06">
+        <img src="imagens/git hub.webp" id="redes" style="background-color: #ffff; border-radius: 60%;">
+      </a>
+      <img src="imagens/gmailpng.png" class="my-img" id="Img">
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close" id="closeBtn">&times;</span>
+          <p id="modalText">julia.prianti2205@gmail.com</p>
+        </div>
+      </div>
+      <script src="js"></script>
+    </footer>
+</body>
+</html>

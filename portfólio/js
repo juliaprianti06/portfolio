@@ -1,0 +1,29 @@
+var modal = document.getElementById("myModal");
+
+
+var img = document.getElementById("Img");
+
+var modalText = document.getElementById("modalText");
+
+
+var closeBtn = document.getElementById("closeBtn");
+
+
+var textToShow = "julia.prianti2005@gmail.com"
+
+
+img.onclick = function() {
+  modal.style.display = "block";
+  modalText.textContent = textToShow; 
+}
+
+
+closeBtn.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
